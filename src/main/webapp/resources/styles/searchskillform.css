@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+table.searchskillcrit {
+    border: 0px;     
+}
+
+table.skillsearchresults{
+    width: 70%;    
+    background-color: #f0f0f5;
+    border: 1px solid black;
+    border-collapse: collapse;
+        
+}
+
+table.skillsearchresults td{
+    border: 1px solid black;    
+    background-color: #f0f0f5;
+    border-collapse: collapse;
+        
+}
+
+table.searchresultsheader{
+	background-color: #f0f0f5;
+	width: 70%;
+}
+
+table.navlinks {
+		text-align: right;	
+		width: 70%;
+		background-color: #f0f0f5;
+}
+
+table.savereset {
+		border-spacing: 50px 20px;
+		width: 20%;		
+}
+
+form.searchskillform {
+	background-color: #f0f0f5;
+	width : 70%
+}

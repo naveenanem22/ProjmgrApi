@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: gray;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+table.resourceresults{
+    border: 1px solid black;    
+    border-collapse: collapse;
+    /* background-color: #f0f0f5; */
+    
+}
+
+table.resourceresults tr:nth-child(even){
+	background-color: #c9c9dc;
+}
+
+table.resourceresults td{
+    border: 1px solid black;
+    border-collapse: collapse;
+       
+}
+
+table.resourceresults th{
+	font-weight: bold;
+    border: 1px solid black;
+    
+}
+
+table.navlinks {
+		text-align: right;	
+		width: 70%;
+}
+

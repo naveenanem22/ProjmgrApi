@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+ul#menu {
+    padding: 0;
+}
+ 
+ul#menu li {
+    display: inline;
+}
+ 
+ul#menu li:hover {
+    background-color: #cc7a00;
+}
+ 
+li{
+    list-style:none;
+    cursor:pointer;
+    background-color: gray;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;    
+    border-radius: 4px 4px 4px 4px;
+    width:860px;
+}
+ 
+li.selected {
+    background-color: #cc7a00;
+    
+}
+
+h2{
+	color:#000000;
+}
+
+div {    
+    color: #000000;
+    background-color: #cc7a00;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+    width:825px;
+    text-align: left;
+}

@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+
+table.savereset {
+		border-spacing: 50px 20px;
+		width: 20%;		
+}
+
+table.navlinks {
+		text-align: right;	
+		width: 70%;
+		background-color: #f0f0f5;
+}
+
+form.addvisaform {
+	background-color: #f0f0f5;
+	width : 70%
+}
+
+table.resourceinfo {
+		text-align: right;	
+		width: 70%;
+		background-color: #f0f0f5;
+}

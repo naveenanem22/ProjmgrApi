@@ -1,0 +1,88 @@
+@CHARSET "ISO-8859-1";
+
+
+table.viewresourcetable{
+    border: 1px solid black;
+     border-collapse: collapse;     
+     border-spacing: 5px 5px;
+       
+}
+
+table.viewresourcetable tr:nth-child(even){
+	background-color: #c9c9dc;
+}
+
+
+
+
+table.viewresourcetable th{
+    font-weight: bold;
+    text-align: left;
+    border: 0px;
+    
+       
+}
+
+table.certificationdetails{
+    border: 1px solid black;
+     border-collapse: collapse;    
+    background-color: #f0f0f5;   
+       
+}
+
+table.certificationdetails td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+       
+}
+
+table.certificationdetails th{
+    font-weight: bold;
+       
+}
+
+table.visadetails{
+    border: 1px solid black;
+     border-collapse: collapse;    
+    background-color: #f0f0f5;   
+       
+}
+
+table.visadetails td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+       
+}
+
+table.visadetails th{
+    font-weight: bold;
+       
+}
+
+
+table.skilldetails{
+    border: 1px solid black;
+     border-collapse: collapse;    
+    background-color: #f0f0f5;   
+       
+}
+
+table.skilldetails td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+       
+}
+
+table.skilldetails th{
+    font-weight: bold;
+       
+}
+
+
+
+table.navlinks {
+		text-align: right;	
+		width: 70%;
+		background-color: #f0f0f5;
+}
+

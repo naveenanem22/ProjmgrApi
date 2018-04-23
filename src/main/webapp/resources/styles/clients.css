@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: gray;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+table.clientresults{
+    border: 1px solid black;
+    
+    border-collapse: collapse;
+    background-color: #f0f0f5;
+    
+}
+
+table.clientresults td{
+    border: 1px solid black;
+    border-collapse: collapse;
+       
+}
+
+table.navlinks {
+		text-align: right;	
+		width: 70%;
+}
+

@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+
+
+
+table.addskilltable td{
+     border: 0px; 
+    border-collapse: collapse;
+       
+}
+
+table.savereset {
+		border-spacing: 50px 20px;
+		width: 20%;		
+}
+
+table.navlinks {
+		text-align: right;	
+		width: 70%;
+		background-color: #f0f0f5;
+}
+
+form.addskillform {
+	background-color: #f0f0f5;
+	width : 70%
+}
