@@ -12,7 +12,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form class="addbusinessunitform" action="/ProjectManagementTool/addingbusinessunit" method="post">
+<form class="addbusinessunitform" action="/projmgr/addingbusinessunit" method="post">
 <table>
 <tr>		
 		<td ><h3>Enter Businessunit details:</h3></td>
@@ -49,8 +49,8 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/businessunits">Businessunits</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/businessunits">Businessunits</a>		 
 	    </td>	    			
 	</tr>
 </table>

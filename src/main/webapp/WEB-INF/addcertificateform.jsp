@@ -14,7 +14,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form action="/ProjectManagementTool/addingcertificate/${resource.id}" class="addcertificateform" method="post">
+<form action="/projmgr/addingcertificate/${resource.id}" class="addcertificateform" method="post">
 <table>
 <tr>		
 		<td ><h3>Enter Certificate details:</h3></td>
@@ -63,8 +63,8 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/resources">Resources</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/resources">Resources</a>		 
 	    </td>	    			
 	</tr>
 </table>

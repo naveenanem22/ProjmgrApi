@@ -13,7 +13,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form class="addskillform" action="/ProjectManagementTool/addingskill" method="post">
+<form class="addskillform" action="/projmgr/addingskill" method="post">
 <table>
 <tr>		
 		<td ><h3>Enter Skill details:</h3></td>
@@ -62,8 +62,8 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/skills">Skills</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/skills">Skills</a>		 
 	    </td>	    			
 	</tr>
 </table>

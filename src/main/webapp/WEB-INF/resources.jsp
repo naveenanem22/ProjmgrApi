@@ -26,7 +26,7 @@
     <tr>
         <td><input type="checkbox" name="resourcerow" value="${resource.id}"></input></td>
        <%--  <td><c:out value="${resource.employeeId}"/></td> --%>
-       <td><a href="/ProjectManagementTool/viewResource/${resource.id}" target="_blank"><c:out value="${resource.employeeId}"/></a></td>
+       <td><a href="/projmgr/viewResource/${resource.id}" target="_blank"><c:out value="${resource.employeeId}"/></a></td>
         <td><c:out value="${resource.firstName}"/></td>
         <td><c:out value="${resource.lastName}" /></td>
         <td><c:out value="${resource.currLocation.city}" /></td>
@@ -42,9 +42,9 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addresource">Add Resource</a></li>  
+  <li><a href="/projmgr/addresource">Add Resource</a></li>  
   <!-- <li><a onClick="getEditResourceId()" id="editresource">Edit resource</a></li> -->
-  <!-- <li><a href="/ProjectManagementTool/searchresource" id="searchresource">Search Resource</a></li> -->
+  <!-- <li><a href="/projmgr/searchresource" id="searchresource">Search Resource</a></li> -->
   <!-- <li><a onClick="getRemoveResourceId()" id="removeresource">Remove Resource</a></li> -->
 </ul>  
 <br>
@@ -52,7 +52,7 @@
 </form>
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/systemmaint">Home</a></td>
+<td><a href="/projmgr/systemmaint">Home</a></td>
 </tr>
 </table>
 

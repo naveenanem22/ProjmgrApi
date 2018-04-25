@@ -189,11 +189,11 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/resources">Resources</a>
-			<a href="/ProjectManagementTool/addcertificate/${employee.id}">AddCertificateDetails</a>
-			<a href="/ProjectManagementTool/addvisa/${employee.id}">AddVisaDetails</a>
-			<a href="/ProjectManagementTool/addresourceskill/${employee.id}">AddSkillDetails</a>			 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/resources">Resources</a>
+			<a href="/projmgr/addcertificate/${employee.id}">AddCertificateDetails</a>
+			<a href="/projmgr/addvisa/${employee.id}">AddVisaDetails</a>
+			<a href="/projmgr/addresourceskill/${employee.id}">AddSkillDetails</a>			 
 	    </td>	    			
 	</tr>
 </table>

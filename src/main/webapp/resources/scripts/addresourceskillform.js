@@ -7,7 +7,7 @@ $(document).ready(function(){
 			$('.resourceskill0').append('<option value="select">SELECT</option>');
 		$.ajax({ 
 		    type: 'POST', 
-		    url: '/ProjectManagementTool/loadresourceskill',
+		    url: '/projmgr/loadresourceskill',
 		    data: { category: $('.resourceskillcat0').val() }, 
 		    dataType: 'json',
 		    success: function (data) {
@@ -28,7 +28,7 @@ $(document).ready(function(){
 		$('.resourceskill1').append('<option value="select">SELECT</option>');
 	$.ajax({ 
 	    type: 'POST', 
-	    url: '/ProjectManagementTool/loadresourceskill',
+	    url: '/projmgr/loadresourceskill',
 	    data: { category: $('.resourceskillcat1').val() }, 
 	    dataType: 'json',
 	    success: function (data) {
@@ -51,7 +51,7 @@ $(document).ready(function(){
 		$('.resourceskill2').append('<option value="select">SELECT</option>');
 	$.ajax({ 
 	    type: 'POST', 
-	    url: '/ProjectManagementTool/loadresourceskill',
+	    url: '/projmgr/loadresourceskill',
 	    data: { category: $('.resourceskillcat2').val() }, 
 	    dataType: 'json',
 	    success: function (data) {

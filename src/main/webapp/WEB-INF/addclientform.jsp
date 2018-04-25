@@ -11,7 +11,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form action="/ProjectManagementTool/addingclient" method="post">
+<form action="/projmgr/addingclient" method="post">
 <table border="0" width="70%" bgcolor="#f0f0f5">
 	<tr height="50px;">
 		<td width="300px;"></td>
@@ -54,8 +54,8 @@
 		<td width="300px;"></td>
 		<td align="left" width="150px;"></td>
 	    <td align="right">
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>&nbsp;&nbsp;
-			<a href="/ProjectManagementTool/clients">Clients</a>&nbsp;&nbsp;		 
+	    	<a href="/projmgr/systemmaint">Home</a>&nbsp;&nbsp;
+			<a href="/projmgr/clients">Clients</a>&nbsp;&nbsp;		 
 	    </td>	    			
 	</tr>
 </table>		

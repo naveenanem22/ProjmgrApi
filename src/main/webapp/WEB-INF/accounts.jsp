@@ -33,7 +33,7 @@
         <td><c:out value="${account.status}"></c:out></td> 
         <td><c:out value="${account.startDate}"></c:out></td>
         <td><c:out value="${account.endDate}"></c:out></td>
-        <td><a href="/ProjectManagementTool/editaccount/${account.id}">edit</a></td>
+        <td><a href="/projmgr/editaccount/${account.id}">edit</a></td>
                   
     </tr>
 </c:forEach>
@@ -43,15 +43,15 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addaccount">Add Account</a></li>
+  <li><a href="/projmgr/addaccount">Add Account</a></li>
   <!-- <li><a onClick="getEditAccountId()" id="editaccount">Edit account</a></li> -->
-  <!-- <li><a href="/ProjectManagementTool/searchaccount" id="searchaccount">Search Account</a></li> -->
+  <!-- <li><a href="/projmgr/searchaccount" id="searchaccount">Search Account</a></li> -->
   <!-- <li><a onClick="getRemoveAccountId()" id="removeaccount">Remove Account</a></li> -->
 </ul>  
 <br>
 <br>
 </form>
-<a href="/ProjectManagementTool/systemmaint">Home</a>
+<a href="/projmgr/systemmaint">Home</a>
 
 <!-- Footer page -->
 <%@include file="pmt_footer.jsp" %>

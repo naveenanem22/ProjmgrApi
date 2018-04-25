@@ -21,7 +21,7 @@
 </table>
  
  
-<form action="/ProjmgrApi/verifylogin" method="post">
+<form action="/projmgr/verifylogin" method="post">
 
 	<table border="0" width="70%" bgcolor="#f0f0f5">
 		<tr height="50px;">

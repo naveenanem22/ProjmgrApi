@@ -13,7 +13,7 @@ function getEditBusinessunitId(){
 			
 	}
 	
-	document.getElementById("editbusinessunit").setAttribute('href','/ProjectManagementTool/editbusinessunit/'+(checkedBusinessunitRow.value))
+	document.getElementById("editbusinessunit").setAttribute('href','/projmgr/editbusinessunit/'+(checkedBusinessunitRow.value))
 	document.getElementById("editbusinessunit").click()
 	
 }
@@ -29,7 +29,7 @@ function getRemoveBusinessunitId(){
 			
 	}
 	
-	document.getElementById("removebusinessunit").setAttribute('href','/ProjectManagementTool/removebusinessunit/'+(checkedBusinessunitRow.value))
+	document.getElementById("removebusinessunit").setAttribute('href','/projmgr/removebusinessunit/'+(checkedBusinessunitRow.value))
 	document.getElementById("removebusinessunit").click()
 	
 }

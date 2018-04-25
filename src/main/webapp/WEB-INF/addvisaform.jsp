@@ -14,7 +14,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form action="/ProjectManagementTool/addingvisa/${resource.id}" class="addvisaform" method="post">
+<form action="/projmgr/addingvisa/${resource.id}" class="addvisaform" method="post">
 <table>
 <tr>		
 		<td ><h3>Enter VISA details:</h3></td>
@@ -57,8 +57,8 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/resources">Resources</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/resources">Resources</a>		 
 	    </td>	    			
 	</tr>
 </table>

@@ -13,7 +13,7 @@ function getEditSkillId(){
 			
 	}
 	
-	document.getElementById("editskill").setAttribute('href','/ProjectManagementTool/editskill/'+(checkedSkillRow.value))
+	document.getElementById("editskill").setAttribute('href','/projmgr/editskill/'+(checkedSkillRow.value))
 	document.getElementById("editskill").click()
 	
 }
@@ -29,7 +29,7 @@ function getRemoveSkillId(){
 			
 	}
 	
-	document.getElementById("removeskill").setAttribute('href','/ProjectManagementTool/removeskill/'+(checkedSkillRow.value))
+	document.getElementById("removeskill").setAttribute('href','/projmgr/removeskill/'+(checkedSkillRow.value))
 	document.getElementById("removeskill").click()
 	
 }

@@ -13,7 +13,7 @@ function getEditRegionId(){
 			
 	}
 	
-	document.getElementById("editregion").setAttribute('href','/ProjectManagementTool/editregion/'+(checkedRegionRow.value))
+	document.getElementById("editregion").setAttribute('href','/projmgr/editregion/'+(checkedRegionRow.value))
 	document.getElementById("editregion").click()
 	
 }
@@ -29,7 +29,7 @@ function getRemoveRegionId(){
 			
 	}
 	
-	document.getElementById("removeregion").setAttribute('href','/ProjectManagementTool/removeregion/'+(checkedRegionRow.value))
+	document.getElementById("removeregion").setAttribute('href','/projmgr/removeregion/'+(checkedRegionRow.value))
 	document.getElementById("removeregion").click()
 	
 }

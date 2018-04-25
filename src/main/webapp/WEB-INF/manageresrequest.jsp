@@ -55,7 +55,7 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    <a href="/ProjectManagementTool/projectmanagement">Home</a>
+	    <a href="/projmgr/projectmanagement">Home</a>
 					 
 	    </td>	    			
 	</tr>

@@ -36,9 +36,9 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addskill">Add Skill</a></li>
+  <li><a href="/projmgr/addskill">Add Skill</a></li>
   <li><a onClick="getEditSkillId()" id="editskill">Edit skill</a></li>
-  <!-- <li><a href="/ProjectManagementTool/searchskill" id="searchskill">Search Skill</a></li> -->
+  <!-- <li><a href="/projmgr/searchskill" id="searchskill">Search Skill</a></li> -->
   <li><a onClick="getRemoveSkillId()" id="removeskill">Remove Skill</a></li>
 </ul>  
 <br>
@@ -46,7 +46,7 @@
 </form>
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/systemmaint">Home</a></td>
+<td><a href="/projmgr/systemmaint">Home</a></td>
 </tr>
 </table>
 

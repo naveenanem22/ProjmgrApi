@@ -12,7 +12,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form action="/ProjectManagementTool/editingproject/${project.id}" method="post">
+<form action="/projmgr/editingproject/${project.id}" method="post">
 <table>	
     <tr>		
 		<td ><h2>Edit Project details</h2></td>
@@ -125,8 +125,8 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/projects">Projects</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/projects">Projects</a>		 
 	    </td>	    			
 	</tr>
 </table>

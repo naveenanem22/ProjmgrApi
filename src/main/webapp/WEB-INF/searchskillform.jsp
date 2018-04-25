@@ -14,7 +14,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form class="searchskillform" action="/ProjectManagementTool/searchingskill" method="POST">
+<form class="searchskillform" action="/projmgr/searchingskill" method="POST">
 <table class="searchskillcrit" id ="srchcrit">
 	<tr>	
 		<td ><h3>Search Skill</h3></td>
@@ -73,8 +73,8 @@
 <table class="navlinks" >
 <tr>
 	    <td>
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/skills">Skills</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/skills">Skills</a>		 
 	    </td>	    			
 	</tr>
 </table>

@@ -22,12 +22,12 @@
 	<tr>
 	    <td>
 	    	<ul>			
-			  <li><a href="/ProjectManagementTool/projectmanagement">Project Management</a></li>
-			  <li><a href="/ProjectManagementTool/systemmaint">System Admin</a></li>
-			  <li><a href="/ProjectManagementTool/employeeportal">Employee Section</a></li>
-			  <li><a href="/ProjectManagementTool/Reports">Reports</a></li>
-			  <li><a href="/ProjectManagementTool/tempsection1">SampleSection1</a></li>
-			  <li><a href="/ProjectManagementTool/tempsection2">SampleSection 2</a></li>			
+			  <li><a href="/projmgr/projectmanagement">Project Management</a></li>
+			  <li><a href="/projmgr/systemmaint">System Admin</a></li>
+			  <li><a href="/projmgr/employeeportal">Employee Section</a></li>
+			  <li><a href="/projmgr/Reports">Reports</a></li>
+			  <li><a href="/projmgr/tempsection1">SampleSection1</a></li>
+			  <li><a href="/projmgr/tempsection2">SampleSection 2</a></li>			
 			</ul>	    	
 	    </td>		    		
 	</tr>

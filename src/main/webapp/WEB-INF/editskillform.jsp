@@ -12,7 +12,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form class="editskillform" action="/ProjectManagementTool/editingskill" method="POST">
+<form class="editskillform" action="/projmgr/editingskill" method="POST">
 <table>
 <tr>		
 		<td ><h3>Edit Skill details:</h3></td>
@@ -66,8 +66,8 @@
 <table class="navlinks">
 <tr>
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/skills">Skills</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/skills">Skills</a>		 
 	    </td>	    			
 	</tr>
 </table>

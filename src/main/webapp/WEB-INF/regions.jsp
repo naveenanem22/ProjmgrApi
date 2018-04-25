@@ -36,9 +36,9 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addregion">Add Region</a></li>
+  <li><a href="/projmgr/addregion">Add Region</a></li>
   <li><a onClick="getEditRegionId()" id="editregion">Edit region</a></li>
-  <!-- <li><a href="/ProjectManagementTool/searchregion" id="searchregion">Search Region</a></li> -->
+  <!-- <li><a href="/projmgr/searchregion" id="searchregion">Search Region</a></li> -->
   <li><a onClick="getRemoveRegionId()" id="removeregion">Remove Region</a></li>
 </ul>  
 <br>
@@ -46,7 +46,7 @@
 </form>
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/systemmaint">Home</a></td>
+<td><a href="/projmgr/systemmaint">Home</a></td>
 </tr>
 </table>
 

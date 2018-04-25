@@ -36,9 +36,9 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addlocation">Add Location</a></li>
+  <li><a href="/projmgr/addlocation">Add Location</a></li>
   <li><a onClick="getEditLocationId()" id="editlocation">Edit location</a></li>
-  <!-- <li><a href="/ProjectManagementTool/searchlocation" id="searchlocation">Search Location</a></li> -->
+  <!-- <li><a href="/projmgr/searchlocation" id="searchlocation">Search Location</a></li> -->
   <li><a onClick="getRemoveLocationId()" id="removelocation">Remove Location</a></li>
 </ul>  
 <br>
@@ -46,7 +46,7 @@
 </form>
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/systemmaint">Home</a></td>
+<td><a href="/projmgr/systemmaint">Home</a></td>
 </tr>
 </table>
 

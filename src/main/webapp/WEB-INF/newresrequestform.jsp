@@ -14,7 +14,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form action="/ProjectManagementTool/projectmanagement/creatingresreq" class="" method="post">
+<form action="/projmgr/projectmanagement/creatingresreq" class="" method="post">
 <table>
 <tr>		
 		<td ><h3>Resource Request Form:</h3></td>
@@ -219,7 +219,7 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    <a href="/ProjectManagementTool/projectmanagement">Home</a>
+	    <a href="/projmgr/projectmanagement">Home</a>
 					 
 	    </td>	    			
 	</tr>

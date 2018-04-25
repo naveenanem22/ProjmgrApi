@@ -13,7 +13,7 @@ function getEditLocationId(){
 			
 	}
 	
-	document.getElementById("editlocation").setAttribute('href','/ProjectManagementTool/editlocation/'+(checkedLocationRow.value))
+	document.getElementById("editlocation").setAttribute('href','/projmgr/editlocation/'+(checkedLocationRow.value))
 	document.getElementById("editlocation").click()
 	
 }
@@ -29,7 +29,7 @@ function getRemoveLocationId(){
 			
 	}
 	
-	document.getElementById("removelocation").setAttribute('href','/ProjectManagementTool/removelocation/'+(checkedLocationRow.value))
+	document.getElementById("removelocation").setAttribute('href','/projmgr/removelocation/'+(checkedLocationRow.value))
 	document.getElementById("removelocation").click()
 	
 }

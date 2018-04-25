@@ -11,7 +11,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form action="/ProjectManagementTool/editingaccount/${account.id}" method="POST">
+<form action="/projmgr/editingaccount/${account.id}" method="POST">
 <table>
 	<tr >		
 		<td ><h2>Edit Account details</h2></td>
@@ -154,8 +154,8 @@
 <tr >
 		
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/accounts">Accounts</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/accounts">Accounts</a>		 
 	    </td>	    			
 	</tr>
 </table>

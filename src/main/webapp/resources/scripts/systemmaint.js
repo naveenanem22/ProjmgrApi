@@ -29,7 +29,7 @@ function myFunction() {
 	var mydiv = document.getElementById("linkdetail")    
     mydiv.innerHTML = divtext
    var aTag = document.createElement('a');
-   aTag.setAttribute('href',"/ProjectManagementTool/projects");
+   aTag.setAttribute('href',"/projmgr/projects");
     aTag.innerHTML = "MaintainProjects";
     mydiv.appendChild(aTag);
 }
@@ -49,7 +49,7 @@ function skills() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/skills");
+aTag.setAttribute('href',"/projmgr/skills");
 aTag.innerHTML = "Maintain Skills";
 mydiv.appendChild(aTag);
 
@@ -65,7 +65,7 @@ function clients() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/clients");
+aTag.setAttribute('href',"/projmgr/clients");
 aTag.innerHTML = "Maintain Clients";
 mydiv.appendChild(aTag);
 
@@ -80,7 +80,7 @@ function regions() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/regions");
+aTag.setAttribute('href',"/projmgr/regions");
 aTag.innerHTML = "Maintain Regions";
 mydiv.appendChild(aTag);
 
@@ -95,7 +95,7 @@ function locations() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/locations");
+aTag.setAttribute('href',"/projmgr/locations");
 aTag.innerHTML = "Maintain Locations";
 mydiv.appendChild(aTag);
 
@@ -110,7 +110,7 @@ function businessunits() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/businessunits");
+aTag.setAttribute('href',"/projmgr/businessunits");
 aTag.innerHTML = "Maintain Businessunits";
 mydiv.appendChild(aTag);
 
@@ -128,7 +128,7 @@ function deliveryunits() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/deliveryunits");
+aTag.setAttribute('href',"/projmgr/deliveryunits");
 aTag.innerHTML = "Maintain Deliveryunits";
 mydiv.appendChild(aTag);
 
@@ -143,7 +143,7 @@ function resources() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/resources");
+aTag.setAttribute('href',"/projmgr/resources");
 aTag.innerHTML = "Maintain Resources";
 mydiv.appendChild(aTag);
 
@@ -158,7 +158,7 @@ function accounts() {
 var mydiv = document.getElementById("linkdetail")    
 mydiv.innerHTML = divtext
 var aTag = document.createElement('a');
-aTag.setAttribute('href',"/ProjectManagementTool/accounts");
+aTag.setAttribute('href',"/projmgr/accounts");
 aTag.innerHTML = "Maintain Accounts";
 mydiv.appendChild(aTag);
 

@@ -19,19 +19,19 @@
 
 <table>
 	<tr>
-	<td><a href="/ProjectManagementTool/projectmanagement/newresreq">New Resource Request</a></td>
+	<td><a href="/projmgr/projectmanagement/newresreq">New Resource Request</a></td>
 	</tr>
 	<tr>
-	<td><a href="/ProjectManagementTool/projectmanagement/newresreq">View Resource Requests</a></td>
+	<td><a href="/projmgr/projectmanagement/newresreq">View Resource Requests</a></td>
 	</tr>
 	<tr>
-	<td><a href="/ProjectManagementTool/projectmanagement/manageresreq">Manage Resource Requests</a></td>
+	<td><a href="/projmgr/projectmanagement/manageresreq">Manage Resource Requests</a></td>
 	</tr>	
 </table>
 
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/projectmanagement">Home</a></td>
+<td><a href="/projmgr/projectmanagement">Home</a></td>
 </tr>
 </table>
 

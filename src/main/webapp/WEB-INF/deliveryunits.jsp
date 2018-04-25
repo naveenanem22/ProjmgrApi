@@ -36,9 +36,9 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/adddeliveryunit">Add DeliveryUnit</a></li>
+  <li><a href="/projmgr/adddeliveryunit">Add DeliveryUnit</a></li>
   <li><a onClick="getEditDeliveryunitId()" id="editdeliveryunit">Edit DeliveryUnit</a></li>
-  <!-- <li><a href="/ProjectManagementTool/searchdeliveryunit" id="searchdeliveryunit">Search DeliveryUnit</a></li> -->
+  <!-- <li><a href="/projmgr/searchdeliveryunit" id="searchdeliveryunit">Search DeliveryUnit</a></li> -->
   <li><a onClick="getRemoveDeliveryunitId()" id="removedeliveryunit">Remove DeliveryUnit</a></li>
 </ul>  
 <br>
@@ -46,7 +46,7 @@
 </form>
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/systemmaint">Home</a></td>
+<td><a href="/projmgr/systemmaint">Home</a></td>
 </tr>
 </table>
 

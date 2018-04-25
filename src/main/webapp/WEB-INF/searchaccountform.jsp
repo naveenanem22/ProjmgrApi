@@ -13,7 +13,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form action="/ProjectManagementTool/searchingaccount" method="POST">
+<form action="/projmgr/searchingaccount" method="POST">
 <table >
 	<tr >
 		
@@ -77,8 +77,8 @@
 		<td ></td>
 		<td ></td>
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/accounts">Accounts</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/accounts">Accounts</a>		 
 	    </td>	    			
 	</tr>
 </table>

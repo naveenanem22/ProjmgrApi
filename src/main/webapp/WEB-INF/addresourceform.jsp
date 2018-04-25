@@ -14,7 +14,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form class="addresourceform" action="/ProjectManagementTool/addingresource" method="post">
+<form class="addresourceform" action="/projmgr/addingresource" method="post">
 <table>
 <tr>		
 		<td ><h3>Enter Resource details:</h3></td>
@@ -213,8 +213,8 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/resources">Resources</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/resources">Resources</a>		 
 	    </td>	    			
 	</tr>
 </table>

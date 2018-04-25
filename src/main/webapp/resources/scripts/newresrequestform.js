@@ -8,7 +8,7 @@ function loadskill(j){
 		$('select[name="secondaryskill'+j+'"]').append('<option value="select">SELECT</option>');
 	$.ajax({ 
 	    type: 'POST', 
-	    url: '/ProjectManagementTool/loadresourceskill',
+	    url: '/projmgr/loadresourceskill',
 	    data: { category: ''}, 
 	    dataType: 'json',
 	    success: function (data) {
@@ -28,7 +28,7 @@ function loadlocation(j){
 	
 $.ajax({ 
     type: 'POST', 
-    url: '/ProjectManagementTool/loadlocation',
+    url: '/projmgr/loadlocation',
     dataType: 'json',
     success: function (data) {
     	for(var i=0;i<data.length;++i){

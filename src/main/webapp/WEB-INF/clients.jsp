@@ -72,9 +72,9 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addclient">Add Client</a></li>
+  <li><a href="/projmgr/addclient">Add Client</a></li>
   <li><a onClick="getEditClientId()" id="editclient">Edit client</a></li>
-  <!-- <li><a href="/ProjectManagementTool/searchclient" id="searchclient">Search Client</a></li> -->
+  <!-- <li><a href="/projmgr/searchclient" id="searchclient">Search Client</a></li> -->
   <li><a onClick="getRemoveClientId()" id="removeclient">Remove Client</a></li>
 </ul>  
 <br>
@@ -82,7 +82,7 @@
 </form>
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/systemmaint">Home</a></td>
+<td><a href="/projmgr/systemmaint">Home</a></td>
 </tr>
 </table>
 

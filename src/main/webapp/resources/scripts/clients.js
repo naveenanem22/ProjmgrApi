@@ -13,7 +13,7 @@ function getEditClientId(){
 			
 	}
 	
-	document.getElementById("editclient").setAttribute('href','/ProjectManagementTool/editclient/'+(checkedClientRow.value))
+	document.getElementById("editclient").setAttribute('href','/projmgr/editclient/'+(checkedClientRow.value))
 	document.getElementById("editclient").click()
 	
 }
@@ -29,7 +29,7 @@ function getRemoveClientId(){
 			
 	}
 	
-	document.getElementById("removeclient").setAttribute('href','/ProjectManagementTool/removeclient/'+(checkedClientRow.value))
+	document.getElementById("removeclient").setAttribute('href','/projmgr/removeclient/'+(checkedClientRow.value))
 	document.getElementById("removeclient").click()
 	
 }
@@ -42,7 +42,7 @@ $(document).ready(function(){
 		$('table[class="clientresults"]').empty();
 		$.ajax({
 			type: 'POST',
-			url: "/ProjectManagementTool/searchingclient",
+			url: "/projmgr/searchingclient",
 			data:{crit:$('input[name="searchbynameorid"]:checked').val(),critval:$('input[name="searchvalue"]').val()},
 			datatype: 'json',
 			success: function(data){

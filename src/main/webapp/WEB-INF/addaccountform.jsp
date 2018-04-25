@@ -13,7 +13,7 @@
 <!-- Header page -->
 <%@include file="pmt_header.jsp" %>
 
-<form class="addaccountform" action="/ProjectManagementTool/addingaccount" method="post">
+<form class="addaccountform" action="/projmgr/addingaccount" method="post">
 <table>
 <tr>		
 		<td ><h3>Enter Account details:</h3></td>
@@ -146,8 +146,8 @@
 <table class="navlinks">
 <tr>	
 	    <td >
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>
-			<a href="/ProjectManagementTool/accounts">Accounts</a>		 
+	    	<a href="/projmgr/systemmaint">Home</a>
+			<a href="/projmgr/accounts">Accounts</a>		 
 	    </td>	    			
 	</tr>
 </table>

@@ -9,7 +9,7 @@ function loadresreq(){
 		
 	$.ajax({ 
 	    type: 'POST', 
-	    url: '/ProjectManagementTool/projectmanagement/loadresreq',	     
+	    url: '/projmgr/projectmanagement/loadresreq',	     
 	    dataType: 'json',
 	    success: function (data) {
 	    	console.log(data);
@@ -71,7 +71,7 @@ $(document).ready(function(){
 			 
 			 $.ajax({ 
 				    type: 'POST', 
-				    url: '/ProjectManagementTool/projectmanagement/manageresreq/new',
+				    url: '/projmgr/projectmanagement/manageresreq/new',
 				    data: {reqDetIds:reqDetIds.toString()},
 				    success: function(data){}
 				});
@@ -80,7 +80,7 @@ $(document).ready(function(){
 			 /*Reload table with request details*/
 			 $.ajax({ 
 				    type: 'POST', 
-				    url: '/ProjectManagementTool/projectmanagement/loadresreq',	     
+				    url: '/projmgr/projectmanagement/loadresreq',	     
 				    dataType: 'json',
 				    success: function (data) {
 				    	console.log(data);

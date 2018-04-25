@@ -13,7 +13,7 @@ function getEditAccountId(){
 			
 	}
 	
-	document.getElementById("editaccount").setAttribute('href','/ProjectManagementTool/editaccount/'+(checkedAccountRow.value))
+	document.getElementById("editaccount").setAttribute('href','/projmgr/editaccount/'+(checkedAccountRow.value))
 	document.getElementById("editaccount").click()
 	
 }
@@ -29,7 +29,7 @@ function getRemoveAccountId(){
 			
 	}
 	
-	document.getElementById("removeaccount").setAttribute('href','/ProjectManagementTool/removeaccount/'+(checkedAccountRow.value))
+	document.getElementById("removeaccount").setAttribute('href','/projmgr/removeaccount/'+(checkedAccountRow.value))
 	document.getElementById("removeaccount").click()
 	
 }

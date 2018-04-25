@@ -13,7 +13,7 @@ function getEditDeliveryunitId(){
 			
 	}
 	
-	document.getElementById("editdeliveryunit").setAttribute('href','/ProjectManagementTool/editdeliveryunit/'+(checkedDeliveryunitRow.value))
+	document.getElementById("editdeliveryunit").setAttribute('href','/projmgr/editdeliveryunit/'+(checkedDeliveryunitRow.value))
 	document.getElementById("editdeliveryunit").click()
 	
 }
@@ -29,7 +29,7 @@ function getRemoveDeliveryunitId(){
 			
 	}
 	
-	document.getElementById("removedeliveryunit").setAttribute('href','/ProjectManagementTool/removedeliveryunit/'+(checkedDeliveryunitRow.value))
+	document.getElementById("removedeliveryunit").setAttribute('href','/projmgr/removedeliveryunit/'+(checkedDeliveryunitRow.value))
 	document.getElementById("removedeliveryunit").click()
 	
 }

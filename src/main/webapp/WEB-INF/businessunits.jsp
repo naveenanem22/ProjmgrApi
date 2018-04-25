@@ -36,9 +36,9 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addbusinessunit">Add Businessunit</a></li>
+  <li><a href="/projmgr/addbusinessunit">Add Businessunit</a></li>
   <li><a onClick="getEditBusinessunitId()" id="editbusinessunit">Edit businessunit</a></li>
-  <!-- <li><a href="/ProjectManagementTool/searchbusinessunit" id="searchbusinessunit">Search Businessunit</a></li> -->
+  <!-- <li><a href="/projmgr/searchbusinessunit" id="searchbusinessunit">Search Businessunit</a></li> -->
   <li><a onClick="getRemoveBusinessunitId()" id="removebusinessunit">Remove Businessunit</a></li>
 </ul>  
 <br>
@@ -46,7 +46,7 @@
 </form>
 <table class="navlinks">
 <tr>
-<td><a href="/ProjectManagementTool/systemmaint">Home</a></td>
+<td><a href="/projmgr/systemmaint">Home</a></td>
 </tr>
 </table>
 

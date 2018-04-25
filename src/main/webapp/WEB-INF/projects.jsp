@@ -31,7 +31,7 @@
         <td><c:out value="${project.endDate}"/></td>
         <td><c:out value="${project.manager.firstName}"/></td>
         <td><c:out value="${project.account.name}"/></td>
-        <td><a href="/ProjectManagementTool/editproject/${project.id}" target="_blank">edit</a></td>          
+        <td><a href="/projmgr/editproject/${project.id}" target="_blank">edit</a></td>          
     </tr>
 </c:forEach>
 
@@ -40,15 +40,15 @@
 
 <br>
 <ul id="menu">
-  <li><a href="/ProjectManagementTool/addproject">Add Project</a></li>
-  <!-- <li><a href="/ProjectManagementTool/editproject">Edit Project</a></li> -->
-  <!-- <li><a href="/ProjectManagementTool/searchproject">Search Project</a></li> -->
-  <!-- <li><a href="/ProjectManagementTool/removeproject">Remove Project</a></li> -->
+  <li><a href="/projmgr/addproject">Add Project</a></li>
+  <!-- <li><a href="/projmgr/editproject">Edit Project</a></li> -->
+  <!-- <li><a href="/projmgr/searchproject">Search Project</a></li> -->
+  <!-- <li><a href="/projmgr/removeproject">Remove Project</a></li> -->
 </ul>  
 <br>
 <br>
 
-<a href="/ProjectManagementTool/systemmaint">Home</a>
+<a href="/projmgr/systemmaint">Home</a>
 
 <!-- Footer page -->
 <%@include file="pmt_footer.jsp" %>

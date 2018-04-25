@@ -49,8 +49,8 @@
 		<td width="300px;"></td>
 		<td align="left" width="150px;"></td>
 	    <td align="right">
-	    	<a href="/ProjectManagementTool/systemmaint">Home</a>&nbsp;&nbsp;
-			<a href="/ProjectManagementTool/locations">Locations</a>&nbsp;&nbsp;		 
+	    	<a href="/projmgr/systemmaint">Home</a>&nbsp;&nbsp;
+			<a href="/projmgr/locations">Locations</a>&nbsp;&nbsp;		 
 	    </td>	    			
 	</tr>
 </table>		
